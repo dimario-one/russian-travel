@@ -5,7 +5,6 @@
 @media screen and (min-width: 768px) {
 	.place__website {
 		display: flex;
-		align-items: flex-end;
 		flex-direction: column;
 		margin: 0;
 		margin-top: auto;
