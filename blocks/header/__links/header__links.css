@@ -1,4 +1,7 @@
-.lang-links {
-    width: 30px;
-    height: 28px;
+.header__links {
+  display: flex;
+  direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   }

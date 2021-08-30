@@ -1,20 +1,20 @@
 @media screen and (min-width: 768px) {
     .places {
-        margin-bottom: 90px;
-        padding: 0 24px;
+    margin-bottom: 90px;
+    padding: 0 24px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .places {
-        margin-bottom: 92px;
-        padding: 0 48px;
+    margin-bottom: 92px;
+    padding: 0 48px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .places {
-        margin-bottom: 92px;
-        padding: 0;
+    /*margin-bottom: 92px;*/
+    padding: 0;
     }
 }
