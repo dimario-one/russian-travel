@@ -1,48 +1,48 @@
 .cover__container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	position: relative;
-	margin: 0;
-	padding: 0px 46px;
-	box-sizing: border-box;
- 	text-decoration: none;
- 	min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0px 46px;
+    box-sizing: border-box;
+    text-decoration: none;
+    min-height: 200px;
 }
 
 @media screen and (min-width: 768px) {
-	.cover__container {
-	min-height: 480px;
-	}
+    .cover__container {
+        min-height: 480px;
+    }
 }
 
-@media screen and (min-width: 1024px) {	
-  .cover__container {
-    min-height: 640px;
-  }
+@media screen and (min-width: 1024px) {
+    .cover__container {
+        min-height: 640px;
+    }
 }
 
-@media screen and (min-width: 1280px) {	
-  .cover__container {
-    min-height: 740px;
-  }
+@media screen and (min-width: 1280px) {
+    .cover__container {
+        min-height: 740px;
+    }
 }
 .cover__container::before {
-	content: "";
-	background: #2A2C2F;
-	opacity: 0.3;
-	position: absolute;
-	top:0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+    content: "";
+    background: #2a2c2f;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .cover__container:hover::before {
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
-	.cover__container {
-		padding: 76px;
-	}
+    .cover__container {
+        padding: 76px;
+    }
 }
