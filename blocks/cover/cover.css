@@ -3,11 +3,17 @@
     flex-direction: column;
     margin-bottom: 64px;
     width: 100%;
-    padding: 0px;
+    padding: 0;
     background-image: url(../.././images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .cover {
+        margin-bottom: 88px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -18,7 +24,6 @@
 
 @media screen and (min-width: 1280px) {
     .cover {
-        margin-bottom: 92px;
         padding: 0;
     }
 }
